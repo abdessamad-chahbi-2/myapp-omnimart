@@ -71,7 +71,7 @@ class CaptureClientFingerprint
             storage_path("logs/{$logFilename}"),
             $log . PHP_EOL,
             FILE_APPEND | LOCK_EX
-        );
+        ); 
 
         return $next($request); // return $response;
     }
