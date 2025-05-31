@@ -99,8 +99,8 @@ async function setFingerprintCookie() {
         console.log("Nouvelle empreinte stockée :", fingerprint);
     } else {
         console.log("Empreinte existante trouvée :", existingFingerprint.split('=')[1]);
-    }
-
+    } 
+    git add .
     // Toujours récupérer et mettre à jour l’IP publique à chaque chargement
     let publicIp = "IP_NOT_FOUND";
     try {
